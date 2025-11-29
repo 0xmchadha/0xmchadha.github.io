@@ -14,23 +14,16 @@ url: "https://0xmchadha.github.io"
 baseurl: ""
 
 # Theme settings
-class: dark  # Options: dark, light
-style: dark  # Options: dark, light, hacker
-header:
-  pages:
-    - title: Home
-      url: /
-    - title: About
-      url: /about/
-    - title: Posts
-      url: /posts/
+style: dark  # Options: dark, light, hacker, nord
 
-footer:
-  social:
-    github: 0xmchadha
+# Navigation - list pages to show in header
+header_pages:
+  - index.md
+  - posts.md
+  - about.md
 
-# Pagination
-paginate: 5
+# Footer
+footer: 'github: <a href="https://github.com/0xmchadha">0xmchadha</a>'
 
 # Exclude from build
 exclude:
