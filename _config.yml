@@ -4,7 +4,7 @@ author: 0xmchadha
 email:
 
 # Build settings
-theme: minima
+theme: jekyll-theme-console
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -13,9 +13,21 @@ plugins:
 url: "https://0xmchadha.github.io"
 baseurl: ""
 
-# Social links (uncomment and fill in as needed)
-# twitter_username: your_twitter
-# github_username: 0xmchadha
+# Theme settings
+class: dark  # Options: dark, light
+style: dark  # Options: dark, light, hacker
+header:
+  pages:
+    - title: Home
+      url: /
+    - title: About
+      url: /about/
+    - title: Posts
+      url: /posts/
+
+footer:
+  social:
+    github: 0xmchadha
 
 # Pagination
 paginate: 5
