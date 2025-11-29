@@ -1,0 +1,27 @@
+title: 0xmchadha's Blog
+description: A personal blog
+author: 0xmchadha
+email:
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# URL settings
+url: "https://0xmchadha.github.io"
+baseurl: ""
+
+# Social links (uncomment and fill in as needed)
+# twitter_username: your_twitter
+# github_username: 0xmchadha
+
+# Pagination
+paginate: 5
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
